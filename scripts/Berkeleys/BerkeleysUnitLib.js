@@ -1,1 +1,1 @@
-function mareNubium() { };
+function mareNubium() { }

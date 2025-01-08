@@ -1,6 +1,6 @@
 {
     "displayName": "WithoutCore",
-    "name": "WithoutCore-mod",
+    "name": "WithoutCore",
     "author": "CypressLeaf",
     "main": "WithoutCore.WithoutCoreMod",
     "description": "A Mindustry mod for WithoutCore.",

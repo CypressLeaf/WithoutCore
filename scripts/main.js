@@ -5,3 +5,4 @@ if (!Vars.headless) {
     Vars.renderer.maxZoom = 200;
 };
 require("Berkeleys/BerkeleysItem");
+require("Berkeleys/BerkeleysUnit");

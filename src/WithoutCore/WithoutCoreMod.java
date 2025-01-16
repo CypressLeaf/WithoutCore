@@ -8,8 +8,11 @@ import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
+import WithoutCore.libs.*;
+import WithoutCore.*;
 
 public class WithoutCoreMod extends Mod {
+    public static ModItems modItems;
 
     public WithoutCoreMod() {
         Log.info("Loaded ExampleJavaMod constructor.");
@@ -32,6 +35,8 @@ public class WithoutCoreMod extends Mod {
     @Override
     public void loadContent() {
         Log.info("Loading some example content.");
+        modItems = new ModItems();
+        modItems.load();
     }
 
 }

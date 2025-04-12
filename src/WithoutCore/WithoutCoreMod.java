@@ -8,11 +8,13 @@ import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
-import WithoutCore.libs.*;
+//import WithoutCore.libs.*;
 import WithoutCore.*;
 
 public class WithoutCoreMod extends Mod {
     public static ModItems modItems;
+    public static BerkeleysUnits berkeleysUnits;
+    //public static BerkeleysPlanes berkeleysPlanes;
 
     public WithoutCoreMod() {
         Log.info("Loaded ExampleJavaMod constructor.");
@@ -37,6 +39,10 @@ public class WithoutCoreMod extends Mod {
         Log.info("Loading some example content.");
         modItems = new ModItems();
         modItems.load();
+        berkeleysUnits = new BerkeleysUnits();
+        berkeleysUnits.load();
+        //berkeleysPlanes = new BerkeleysPlanes();
+        //berkeleysPlanes.load();
     }
 
 }

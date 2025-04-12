@@ -1,4 +1,4 @@
-package WithoutCore.libs;
+package WithoutCore.libs.Bundle;
 
 import arc.Core;
 import arc.struct.Seq;
@@ -13,7 +13,7 @@ public class Bundle implements Comparable<Stat>{
     public static final Bundle
 
     plane = new Bundle("plane"),
-    dps = new Bundle("perSecond");
+    maxPlane = new Bundle("maxPlane");
 
     public final StatCat category;
     public final String name;
